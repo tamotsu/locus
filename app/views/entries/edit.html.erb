@@ -1,0 +1,8 @@
+<h2>記事の編集</h2>
+<%= error_messages_for :entry %>
+<%= render :partial => 'form' %>
+
+<div class="operation">
+  <%= link_to '表示', @entry %>
+  <%= link_to '戻る', entries_path %>
+</div>
